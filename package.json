@@ -1,0 +1,31 @@
+{
+  "name": "taxa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fastline21/taxa.git"
+  },
+  "keywords": [],
+  "author": "Joshwa Facistol",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fastline21/taxa/issues"
+  },
+  "homepage": "https://github.com/fastline21/taxa#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "pdf-to-base64": "^1.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
